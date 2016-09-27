@@ -25,3 +25,11 @@ This is a collection of effects resulting by the design of realtime rendering sy
 *Solution:* Filtering textures will smooth out pixelation. 
 
 ![Texture Filtering](texturefiltering.png)
+
+## Perspective distortion - 2D Projection/ stereoscopic project with lens distortion
+
+*Problem:* Objects further aways from the viewer appear smaller than those closer
+*Solution:* Projects these objects from 3D space to a 2D Image using a projection matrix [http://www.songho.ca/opengl/gl_projectionmatrix.html](http://www.songho.ca/opengl/gl_projectionmatrix.html). 
+*Solution:* For VR: Compensate for lens distortion with fresnel lenses in VR Headsets as well. Display stereoscopic split-view. 
+
+![Perspective](perspective.png)
